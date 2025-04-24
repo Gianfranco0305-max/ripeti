@@ -1,0 +1,77 @@
+
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ripetizioni Online</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Header -->
+    <header>
+        <div class="container">
+            <h1>Ripetizioni Online</h1>
+            <nav>
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#psicologia">Psicologia</a></li>
+                    <li><a href="#dsa">Supporto DSA</a></li>
+                    <li><a href="#contatti">Contatti</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Sezione principale -->
+    <section id="home" class="hero">
+        <div class="container">
+            <h2>Ripetizioni online a basso costo per tutti</h2>
+            <p>Offriamo supporto per ogni tipo di esigenza scolastica, psicologica e DSA.</p>
+            <button onclick="window.location.href='#psicologia'">Scopri il supporto psicologico</button>
+        </div>
+    </section>
+
+    <!-- Sezione psicologia -->
+    <section id="psicologia" class="service-section">
+        <div class="container">
+            <h2>Supporto Psicologico</h2>
+            <p>Offriamo consulenze psicologiche online con professionisti qualificati, per aiutarti a gestire lo stress durante il percorso di studio.</p>
+            <button onclick="window.location.href='prenotazioni.html'">Prenota una consulenza</button>
+        </div>
+    </section>
+
+    <!-- Sezione DSA -->
+    <section id="dsa" class="service-section">
+        <div class="container">
+            <h2>Supporto per DSA</h2>
+            <p>Materiali di studio personalizzati per studenti con disturbi specifici dell'apprendimento, inclusi audiolibri e software di lettura.</p>
+            <button onclick="window.location.href='risorse_dsa.html'">Scopri le risorse</button>
+        </div>
+    </section>
+
+    <!-- Sezione contatti -->
+    <section id="contatti" class="contact-section">
+        <div class="container">
+            <h2>Contattaci</h2>
+            <p>Per qualsiasi domanda, siamo a tua disposizione. Scrivici ora!</p>
+            <form action="submit_form.php" method="POST">
+                <input type="text" name="nome" placeholder="Il tuo nome" required>
+                <input type="email" name="email" placeholder="La tua email" required>
+                <textarea name="messaggio" placeholder="Il tuo messaggio" required></textarea>
+                <button type="submit">Invia</button>
+            </form>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <p>&copy; 2025 Ripetizioni Online. Tutti i diritti riservati.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
